@@ -1,0 +1,143 @@
+/**Google Font **/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    padding: 10px;
+    background:white;
+}
+.container{
+    position: relative;
+    max-width: 700px;
+    width: 70%;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 18px rgba(0,0,0, 0.1);
+}
+.container header{
+    font-size: 23px;
+    color: red;
+    margin-top: 10px;
+    font-weight: 500;
+    text-align: center;
+}
+.container .form{
+    margin-top: 20px;
+
+}
+.form .input-box{
+    width: 100%;
+    margin-top: 20px;
+    
+}
+.input-box label{
+    color: #333;
+
+}
+.form :where(.input-box input, .select-box){
+    position: relative;
+    height: 50px;
+    width: 100%;
+    outline: none;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 0 15px;
+    font-size: 1rem;
+    color: #707070;
+    margin-top: 8px;
+    
+}
+.form .column{
+    display: flex;
+    column-gap: 15px;
+    
+}
+.form .gender-box{
+    margin-top: 20px;
+}
+.gender-box h3{
+    color: #333;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+.form :where(.gender-option, .gender){
+    display: flex;
+    align-items: center;
+    column-gap: 40px;
+    flex-wrap: wrap;
+}
+.form .gender{
+    column-gap: 5px;
+    cursor: pointer;
+
+}
+.form :where(.gender input, .gender label){
+    cursor: pointer;
+}
+.address :where(input, .select-box){
+    margin-top: 15px;
+    
+}
+.select-box select{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    border: none;
+    color: #707070;
+    font-size: 1rem;
+}
+.form .proceed{
+    width: 100%;
+    margin-left: 30px;
+    margin-top: 50px;
+    background-color:white;
+    color: white;
+   
+}
+.form .proceed a{
+    text-decoration: none;
+    font-style: italic;
+    font-size: 15px;
+    color: black;
+}
+.course-box{
+    background-color: lightblue;
+    position: relative;
+    height: 120px;
+    width: 100%;
+    border-radius: 15px;
+}
+.course-box h1{
+    text-align: center;
+    font-size: 18px;
+    color: white;
+}
+.course-box p{
+    text-align: center;
+    font-size: 16px;
+    color: black;
+}
+.form .file input[type="file"]{
+    position: absolute;
+    top:82%;
+    
+}
+/*Responsive*/
+@media screen and(max-width:500px) {
+    .form .column{
+        flex-wrap: wrap;
+    }
+    .form :where(.gender-option, .gender){
+        row-gap: 15px;
+    }
+}

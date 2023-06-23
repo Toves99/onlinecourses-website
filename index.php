@@ -1,0 +1,284 @@
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>maw institute</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/main1.css" rel="stylesheet">
+
+  
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <section id="topbar" class="topbar d-flex align-items-center">
+    <div class="container d-flex justify-content-center justify-content-md-between">
+      <div class="contact-info d-flex align-items-center">
+        <i class="bi bi-envelope d-flex align-items-center"><a href="mailto:contact@example.com">maw@gmail.com</a></i>
+        <i class="bi bi-phone d-flex align-items-center ms-4"><span>+2547564645</span></i>
+      </div>
+      <div class="social-links d-none d-md-flex align-items-center">
+        <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></i></a>
+      </div>
+    </div>
+  </section><!-- End Top Bar -->
+
+  <header id="header" class="header d-flex align-items-center">
+
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+      <a href="main.php" class="logo d-flex align-items-center">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.png" alt=""> -->
+        <h1>Maw Institute</h1>
+      </a>
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li class="dropdown"><a href="#"><span>Courses for you</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+            <ul>
+              <li><a href=" https://2300-102-220-12-50.ngrok-free.app/maw/login.php">All Courses</a></li>
+              <li><a href=" https://2300-102-220-12-50.ngrok-free.app/maw/indexAndroid.php">Mobile app development courses</a></li>
+              <li><a href=" https://2300-102-220-12-50.ngrok-free.app/maw/indexWeb.php">Web Application develoment courses</a></li>
+              <li><a href=" https://2300-102-220-12-50.ngrok-free.app/maw/indexDatabase.php">Database programming courses</a></li>
+              <li><a href=" https://2300-102-220-12-50.ngrok-free.app/maw/indexShortCourses.php">Short Courses </a>
+              </li>
+            </ul>
+          </li>
+          <li><a href=" https://2300-102-220-12-50.ngrok-free.app/maw/contact.php">Contact</a></li>
+          <li class="dropdown"><a href="#"><span>more</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+            <ul>
+              <li><a href=" https://2300-102-220-12-50.ngrok-free.app/maw/about_us.php">About Us</a></li>
+              <li><a href=" https://2300-102-220-12-50.ngrok-free.app/maw/career.php">Career</a></li>
+              <li><a href=" https://2300-102-220-12-50.ngrok-free.app/maw/blogs.php">Blog</a></li>
+              <li><a href=" https://2300-102-220-12-50.ngrok-free.app/maw/faq.php">FAQs</a></li>
+            </ul>
+          </li>
+          
+          
+          <li><a href=" https://2300-102-220-12-50.ngrok-free.app/maw/login.php">Login</a></li>
+          <vr style="width: 2px;background: black;">
+          <a href=" https://2300-102-220-12-50.ngrok-free.app/maw/signup.php">
+            <button style="background: blue;color: white;border-radius: 5px;padding-left: 15px;border: none;height: 40px;">Join Us</button>
+          </a>
+        </ul>
+      </nav><!-- .navbar -->
+
+      <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+      <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+
+    </div>
+  </header><!-- End Header -->
+  <!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="hero">
+    <div class="container position-relative">
+      <div class="row gy-5" data-aos="fade-in">
+        <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center text-center text-lg-start">
+          <h5>Ready to grow your career in Programming and become a certified Digital Engineer?</h5>
+          <p>Unlock your programming potential at Maw institute.Here, we transform aspiring developers into industry-ready professionals</p>
+          <br>
+          <div class="d-flex justify-content-center justify-content-lg-start">
+            <a href=" https://2300-102-220-12-50.ngrok-free.app/maw/login.php" class="btn-get-started">Get Started</a>
+            <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
+          </div>
+          <div class="col-lg-6 order-1 order-lg-2">
+            <img src="assets/img/code.jpg"  alt="" data-aos="zoom-out" data-aos-delay="100" class="img1">
+          </div>
+        </div>
+        <div class="col-lg-6 order-1 order-lg-2">
+          
+        </div>
+      </div>
+    </div>
+    <div class="icon-boxes position-relative">
+      <div class="container position-relative">
+        <div class="row gy-4 mt-5">
+
+          <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="icon-box">
+              <img src="assets/img/mob.png">
+              <h4>Start your Mobile App development Career with Us</h4>
+              <br>
+              <p>Learn how to develop Android and IOS mobile applications.</p>
+              <a href=" https://2300-102-220-12-50.ngrok-free.app /maw/indexAndroid.php">
+                <button>Learn more
+                  <span>></span>
+                </button>
+              </a>
+            </div>
+          </div><!--End Icon Box -->
+
+          <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="icon-box">
+              <img src="assets/img/web3.png">
+              <h4>Lets grow your Web development Career to great heights</h4>
+              <br>
+              <p>Acquire much needed web development skills from our highly experienced professionals.</p>
+              <a href=" https://2300-102-220-12-50.ngrok-free.app /maw/indexWeb.php">
+                <button>Learn more
+                  <span>></span>
+                </button>
+              </a>
+            </div>
+          </div><!--End Icon Box -->
+
+          <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="icon-box">
+              <img src="assets/img/data.png">
+              <h4>Ready to build a Database?</h4>
+              <br>
+              <p>We train an end to end backed programming from servers to database.</p>
+              <a href=" https://2300-102-220-12-50.ngrok-free.app /maw/indexDatabase.php">
+                <button>Learn more
+                  <span>></span>
+                </button>
+              </a>
+            </div>
+          </div><!--End Icon Box -->
+
+          <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="500">
+            <div class="icon-box">
+              <img src="assets/img/hy.png">
+              <h4>Are you aware there exist hybrid mobile applications?</h4>
+              <br>
+              <p>Get certfied as a hybrid mobile application developer.</p>
+              <a href=" https://2300-102-220-12-50.ngrok-free.app /maw/indexAndroid.php">
+                <button>Learn more
+                  <span>></span>
+                </button>
+              </a>
+            </div>
+          </div><!--End Icon Box -->
+
+        </div>
+      </div>
+    </div>
+
+    </div>
+  </section>
+  <!-- End Hero Section -->
+
+  <main id="main">
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
+
+    <div class="container">
+      <div class="row gy-4">
+        <div class="col-lg-5 col-md-12 footer-info">
+          <a href="index.html" class="logo d-flex align-items-center">
+            <span>Maw Institute</span>
+          </a>
+          <p>Unlock your programming potential at Maw institute.Here, we transform aspiring developers into industry-ready professionals</p>
+          <div class="social-links d-flex mt-4">
+            <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+            <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+            <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+            <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-6 footer-links">
+          <h4>Useful Links</h4>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Terms of service</a></li>
+            <li><a href="#">Privacy policy</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-6 footer-links">
+          <h4>Our Courses</h4>
+          <ul>
+            <li><a href="#">Short Programming Courses</a></li>
+            <li><a href="#">Web Development</a></li>
+            <li><a href="#">IOS App Development</a></li>
+            <li><a href="#">Hybrid App Development</a></li>
+            <li><a href="#">Database Programming</a></li>
+            <li><a href="#">Android App Development</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+          <h4>Contact Us</h4>
+          <p>
+            Nairobi <br>
+            Utali house<br>
+            Kenya <br><br>
+            <strong>Phone:</strong> +254757561782<br>
+            <strong>Email:</strong>maw@gmail.com<br>
+          </p>
+
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container mt-4">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Maw</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        Designed by <a href="https://bootstrapmade.com/">Daggy and clinto</a>
+      </div>
+    </div>
+
+  </footer><!-- End Footer -->
+  <!-- End Footer -->
+
+  <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script>
+    let subMenu=document.getElementById("subMenu");
+    function toggleMenu(){
+      subMenu.classList.toggle("open-menu");
+      
+    }
+  </script>
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
